@@ -1,0 +1,19 @@
+.block {
+   background-color: darkturquoise; 
+    width: 600px; height: 500px; display: flex; flex-direction: column-reverse
+}
+.obsidian {
+    background-color: ghostwhite; width: 300px; height: 300px; display: flex; justify-content: flex-end;
+}
+.cube {
+    background-color: gray; width:300px; height : 400px; display: flex; justify-content: center; align-items: center;
+}
+.littlecube {
+    background-color: darkred; width: 50px; height: 50px;
+}
+.rectangles {
+    background-color: dodgerblue; width: 600px; height: 100px; display: flex; flex-direction: row; gap: 10px
+}
+.littlerectangles {
+    background-color: crimson; width: 200px;
+}
