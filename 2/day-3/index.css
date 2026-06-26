@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url(HeroImage.png);
+    width: 1440px;
+    height: 773px;
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.navigation {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 118px;
+    
+}
+.EN {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 24px;
+    color: white;
+}
+.hero-image {
+    width: 100px;
+    height: 34px;
+}
+.layout {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(image\ copy.png);
+    gap:  65px;
+
+}
+.lake {
+    width: 275px;
+    height: 370px;
+    border-radius: 50px;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.lake-two {
+    width: 275px;
+    height: 370px;
+    border-radius: 50px;
+    background-image: url(2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.lake-three {
+    width: 275px;
+    height: 370px;
+    border-radius: 50px;
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.lake-four {
+    width: 275px;
+    height: 370px;
+    border-radius: 50px;
+    background-image: url(4.png);
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.hard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.pure-magic {
+    font-size: 80px;
+    color: azure;
+}
+.awaits {
+    font-size:250px;
+    color: aliceblue;
+}
+.tav {
+    font-size: 64px;
+    color: aliceblue;
+}
+.mongolia {
+    background-image: url(image.png);
+    width: 1440px;
+    height: 1022px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+.mc {
+    width:  1440px;
+    height: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aash {
+font-size: 42px;
+}
+.sukh {
+    width: 1200px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top:60px 120px ;
+}
+.sukhbaatar {
+    width: 513px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sukhbat {
+    width: 513px;
+    height: 112px;
+    background-color: #EEE9D9;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amaraa {
+ width: 513px;
+    height: 112px;
+    background-color: #8BB8C1CC;
+    border-radius: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.khor {
+ width: 513px;
+    height: 112px;
+    background-color: #AAD8D7CC;
+    border-radius: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.terhiin {
+ width: 513px;
+    height: 112px;
+    background-color: #8BC0BDCC;
+    border-radius: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.khuvsgul {
+ width: 513px;
+    height: 112px;
+    background-color: #97CCE0CC;
+    border-radius: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.square {
+    width: 483px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.triangle {
+    width: 217px;
+    height: 29px;
+}
+.en {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon-2 {
+    width: 14px;
+    height: 14px;
+
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.amar {
+    width: 483px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.mine {
+    width: 217px;
+    height: 29px;
+}
+.en-2 {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon-3 {
+    width: 14px;
+    height: 14px;
+
+}
+.six {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.khoroo {
+    width: 483px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.craft {
+     width: 217px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+
+}
+.seven {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.en-3 {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon-4 {
+     width: 14px;
+    height: 14px;
+}
+.terh {
+    width: 483px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.wood {
+     width: 217px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+
+}
+.eight {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.en-4 {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon-5 {
+     width: 14px;
+    height: 14px;
+}
+.khuvs {
+    width: 483px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.earth {
+     width: 217px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+
+}
+.nine {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.en-5 {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon-6 {
+     width: 14px;
+    height: 14px;
+}
+.sukhee {
+    background-image: url(image\ copy\ 3.png);
+    width: 369px;
+    height: 369px;
+    top: 65px;
+    right: 22px;
+    position: absolute;
+
+}
+.jane {
+    width: 647px;
+    height: 640px; 
+    position: relative;
+
+}
