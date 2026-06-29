@@ -59,6 +59,8 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     color: aliceblue;
+    box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46); 
+    cursor: pointer;
 }
 .lake-two {
     width: 275px;
@@ -71,6 +73,8 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     color: aliceblue;
+     box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46); 
+    cursor: pointer;
 }
 .lake-three {
     width: 275px;
@@ -83,6 +87,8 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     color: aliceblue;
+     box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46); 
+    cursor: pointer;
 }
 .lake-four {
     width: 275px;
@@ -95,6 +101,8 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     color: aliceblue;
+     box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46); 
+    cursor: pointer;
 }
 .hard {
     display: flex;
@@ -134,7 +142,7 @@ background-size: cover;
 .aash {
 font-size: 42px;
 }
-.sukh {
+.big-div {
     width: 1200px;
     height: 640px;
     display: flex;
@@ -143,7 +151,7 @@ font-size: 42px;
     gap: 40px;
     padding-top:60px 120px ;
 }
-.sukhbaatar {
+.hey {
     width: 513px;
     height: 640px;
     display: flex;
@@ -159,6 +167,7 @@ font-size: 42px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 .amaraa {
  width: 513px;
@@ -366,18 +375,108 @@ font-size: 42px;
      width: 14px;
     height: 14px;
 }
-.sukhee {
+.circle {
     background-image: url(image\ copy\ 3.png);
     width: 369px;
     height: 369px;
     top: 65px;
     right: 22px;
     position: absolute;
-
+    opacity: 0;
 }
+.circle-2 {
+    background-image: url(Frame\ 177.png);
+    width: 369px;
+    height: 369px;
+    top: 0px;
+    right: 235px;
+    position: absolute;
+    opacity: 0; }
+.circle-3 {
+    background-image: url(11111.png);
+    width: 369px;
+    height: 369px;
+    top: 50px;
+    right: 78px;
+    position: absolute;
+    opacity: 0; }
+.circle-4 {
+    background-image: url(Frame\ 178.png);
+    width: 369px;
+    height: 369px;
+    right: 302px;
+    bottom: 200px;
+    position: absolute;
+    opacity: 0; }
+.circle-5 {
+    background-image: url(Frame\ 179.png);
+    width: 369px;
+    height: 369px;
+    right: 235px;
+    bottom: 454px;
+    position: absolute;
+    opacity: 0; }
 .jane {
     width: 647px;
     height: 640px; 
     position: relative;
 
+}
+.big-div:has(.sukhbat:hover) .circle {
+    opacity: 1;
+    transition: 0.3s;
+}
+.big-div:has(.amaraa:hover) .circle-2 {
+    opacity: 1;
+    transition: 0.3s;
+}
+.big-div:has(.khor:hover) .circle-3 {
+    opacity: 1;
+    transition: 0.3s;
+}
+.big-div:has(.terhiin:hover) .circle-4 {
+    opacity: 1;
+    transition: 0.3s;
+}
+.big-div:has(.khuvsgul:hover) .circle-5 {
+    opacity: 1;
+    transition: 0.3s;
+}
+.price-footer {
+    width: 1440px;
+    height: 1120px;
+    background-image: url(Price&Footer\ image\ \(1\).png);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.agency {
+    height: 85px;
+}
+.prices {
+    width: 1200px;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.price {
+    background-color: whitesmoke;
+    width: 384px;
+    height: 527px;
+    border-radius: 40px;
+}
+.price-2 {
+    background-color: whitesmoke;
+    width: 384px;
+    height: 527px;
+    border-radius: 40px;
+}
+.price-3 {
+    background-color: whitesmoke;
+    width: 384px;
+    height: 527px;
+    border-radius: 40px;
 }
