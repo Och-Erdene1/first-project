@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.demonking {
+  width: 3000px;
+  height: 1500px;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.meli {
+  width: 300px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+  flex-direction: column;
+}
+.liz {
+  background-image: url(image\ copy\ 5.png);
+  width: 300px;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease 0s;
+}
+.liz:hover {
+  transform: scale(1.1);
+}
+.demon {
+  width: 0px;
+  height: 15px;
+  background-color: crimson;
+    transition: width ease 0.4s;
+}
+.demonking:has(.meli:hover) .demon {
+  width: 200px;
+}
+.zel {
+  width: 300px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.vampire {
+  background-image: url(image\ copy\ 8.png);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  transition: 0.4s ease 0s;
+}
+.vampire:hover {
+  transform: scale(1.1);
+}
+.demonking:has(.zel:hover) .lildemon {
+    width: 200px;
+}
+.lildemon {
+  width: 0px;
+  height: 15px;
+  background-color: crimson;
+    transition: width ease 0.4s;
+}
+.escanor {
+  width: 300px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.sun {
+  background-image: url(image.png);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  transition: 0.4s ease 0s;
+}
+.sun:hover {
+  transform: scale(1.1);
+}
+.human {
+  width: 0px;
+  height: 15px;
+  background-color: crimson;
+    transition: width ease 0.4s;
+}
+.demonking:has(.escanor:hover) .human {
+    width: 200px;
+}
+.dian {
+  width: 300px;
+  height: 700px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.giant {
+  background-image: url(image\ copy.png);
+  width: 300px;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease 0s;
+}
+.giant:hover {
+  transform: scale(1.1);
+}
+.giant-human {
+  width: 00px;
+  height: 15px;
+  background-color: crimson;
+    transition: width ease 0.4s;
+}
+.demonking:has(.dian:hover) .giant-human {
+    width: 200px;
+}

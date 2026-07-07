@@ -1,0 +1,60 @@
+.body {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+}
+
+.pokemon {
+    width: 1100px;
+    height: 500px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.turtle {
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+.shell {
+     background-image: url(7.svg);
+     width: 190px;
+     height: 183px;
+}
+.kurama {
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+.ninetails {
+    background-image: url(133.svg);
+    width: 120px;
+    height: 149px;
+}
+.naruto {
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue  ;
+}
+.mc {
+     background-image: url(170.svg);
+     width: 330px;
+     height: 183px;
+}

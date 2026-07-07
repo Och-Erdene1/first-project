@@ -167,7 +167,9 @@ font-size: 42px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+}
+.sukhbat:active {
+    background-color: gray
 }
 .amaraa {
  width: 513px;
@@ -179,6 +181,8 @@ font-size: 42px;
     align-items: center;
     flex-direction: column;
 }
+.amaraa:active {
+    background-color: gray }
 .khor {
  width: 513px;
     height: 112px;
@@ -189,6 +193,8 @@ font-size: 42px;
     align-items: center;
     flex-direction: column;
 }
+.khor:active {
+    background-color: gray }
 .terhiin {
  width: 513px;
     height: 112px;
@@ -199,6 +205,8 @@ font-size: 42px;
     align-items: center;
     flex-direction: column;
 }
+.terhiin:active {
+    background-color: gray }
 .khuvsgul {
  width: 513px;
     height: 112px;
@@ -209,6 +217,8 @@ font-size: 42px;
     align-items: center;
     flex-direction: column;
 }
+.khuvsgul:active {
+    background-color: gray }
 .square {
     width: 483px;
     height: 48px;
@@ -467,16 +477,176 @@ font-size: 42px;
     width: 384px;
     height: 527px;
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+.budget-package {
+    width: 384px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 24px;
+}
+.heart {
+    background-image: url(IconButton.png);
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-size: cover;
+}
+.info {
+    height: 435px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+.box-500 {
+    width: 336px;
+    height: 290px;
+}
+.box-five-dolla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 336px;
+    height: 78px;
+}
+.includes {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+    padding : 0 40px ;
+}
+.select-package {
+    width: 336px;
+    height: 48px;
+    background-color: #A4D1E2;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .price-2 {
     background-color: whitesmoke;
     width: 384px;
     height: 527px;
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
+.Standart-package {
+    width: 384px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 24px;
+}
+.heart-2 {
+    background-image: url(IconButton.png);
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-size: cover;
+}
+.info-2 {
+    height: 435px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+.box-800 {
+    width: 336px;
+    height: 290px;
+}
+.box-eight-dolla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 336px;
+    height: 78px;
+}
+.includes-2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+    padding : 0 40px ;
+}
+.select-package-2 {
+    width: 336px;
+    height: 48px;
+    background-color: #A4D1E2;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .price-3 {
     background-color: whitesmoke;
     width: 384px;
     height: 527px;
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.Luxury-package {
+    width: 384px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 24px;
+}
+.heart-3 {
+    background-image: url(IconButton.png);
+    width: 36px;
+    height: 36px;
+    background-position: center;
+    background-size: cover;
+}
+.info-3 {
+    height: 435px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+.box-1200 {
+    width: 336px;
+    height: 290px;
+}
+.box-two-dolla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 336px;
+    height: 78px;
+}
+.includes-3 {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+    padding : 0 40px ;
+}
+.select-package-3 {
+    width: 336px;
+    height: 48px;
+    background-color: #A4D1E2;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+    

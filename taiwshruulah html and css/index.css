@@ -1,0 +1,13 @@
+ .body {
+    background-color: blue;
+    width: 2200px;
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus {
+    width: 900px;
+    height: 600px;
+    background-color: darkblue;
+}
